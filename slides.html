@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>2012.05.30.JasmineIntroFluentConf</title>
+    <meta charset='utf-8' />
+    <meta content='width=1024, user-scalable=no' name='viewport' />
+    <!-- deck.js's core css -->
+    <link href="deck.js/core/deck.core.css" rel="stylesheet" type="text/css"/>
+    <!-- deck.js extension CSS files -->
+    <link href="deck.js/extensions/codemirror/deck.codemirror.css" rel="stylesheet" type="text/css"/>
+    <link href="deck.js/extensions/goto/deck.goto.css" rel="stylesheet" type="text/css"/>
+    <link href="deck.js/extensions/hash/deck.hash.css" rel="stylesheet" type="text/css"/>
+    <link href="deck.js/extensions/menu/deck.menu.css" rel="stylesheet" type="text/css"/>
+    <link href="deck.js/extensions/navigation/deck.navigation.css" rel="stylesheet" type="text/css"/>
+    <link href="deck.js/extensions/scale/deck.scale.css" rel="stylesheet" type="text/css"/>
+    <link href="deck.js/extensions/status/deck.status.css" rel="stylesheet" type="text/css"/>
+    <!-- all css in the css dir: Keydown CSS, your custom CSS, and themes from deck.js -->
+    <link href="css/keydown.css" rel="stylesheet" type="text/css"/>
+    <link href="css/2012.05.30.JasmineIntroFluentConf.css" rel="stylesheet" type="text/css"/>
+    <link href="css/default.css" rel="stylesheet" type="text/css"/>
+    <link href="css/horizontal-slide.css" rel="stylesheet" type="text/css"/>
+    <!-- Modernizr (provided for legacy browsers) -->
+    <script src="deck.js/support/modernizr.custom.js" type="text/javascript"></script>
+  </head>
+  <body class='deck-container keydown'>
+    <section class='slide'>
+      <div class='spacer top'></div>
+      <div class='content'>
+        <p><img src="images/jasmine_logo.png" alt="Jasmine Logo" /></p>
+        
+        <h1>...an Introduction</h1>
+        
+        <h3><a href="http://dwf.bigpencil.net">Davis W. Frank</a> | <a href="http://twitter.com/dwfrank">@dwfrank</a> | <a href="http://pivotallabs.com">Pivotal Labs</a></h3>
+      </div>
+      <div class='spacer bottom'></div>
+    </section>
+    <section class='slide'>
+      <div class='spacer top'></div>
+      <div class='content'>
+        <h1><code>{}</code></h1>
+      </div>
+      <div class='spacer bottom'></div>
+    </section>
+    <section class='slide'>
+      <div class='spacer top'></div>
+      <div class='content'>
+        <h1>This used to be a comment</h1>
+      </div>
+      <div class='spacer bottom'></div>
+    </section>
+    <section class='slide'>
+      <div class='spacer top'></div>
+      <div class='content'>
+        <h1><code>{}</code></h1>
+      </div>
+      <div class='spacer bottom'></div>
+    </section>
+    <section class='slide'>
+      <div class='spacer top'></div>
+      <div class='content'>
+        <h1>This used to be a string</h1>
+      </div>
+      <div class='spacer bottom'></div>
+    </section>
+    <section class='slide'>
+      <div class='spacer top'></div>
+      <div class='content'>
+        <h1><code>{}</code></h1>
+      </div>
+      <div class='spacer bottom'></div>
+    </section>
+    <section class='slide'>
+      <div class='spacer top'></div>
+      <div class='content'>
+        <h1>A "peasant's language"</h1>
+        
+        <h3>(apologies to <a href="http://danwebb.net">Dan Webb</a>)</h3>
+      </div>
+      <div class='spacer bottom'></div>
+    </section>
+    <section class='slide'>
+      <div class='spacer top'></div>
+      <div class='content'>
+        <h1><code>{}</code></h1>
+      </div>
+      <div class='spacer bottom'></div>
+    </section>
+    <section class='slide'>
+      <div class='spacer top'></div>
+      <div class='content'>
+        <h1>This was B$</h1>
+      </div>
+      <div class='spacer bottom'></div>
+    </section>
+    <section class='slide'>
+      <div class='spacer top'></div>
+      <div class='content'>
+        <h2>Before $()</h2>
+      </div>
+      <div class='spacer bottom'></div>
+    </section>
+    <section class='slide'>
+      <div class='spacer top'></div>
+      <div class='content'>
+        <h1><code>{}</code></h1>
+      </div>
+      <div class='spacer bottom'></div>
+    </section>
+    <section class='slide'>
+      <div class='spacer top'></div>
+      <div class='content'>
+        <h1><em>Turns out...</em></h1>
+      </div>
+      <div class='spacer bottom'></div>
+    </section>
+    <section class='slide'>
+      <div class='spacer top'></div>
+      <div class='content'>
+        <h1>JavaScript is <em>code</em></h1>
+      </div>
+      <div class='spacer bottom'></div>
+    </section>
+    <section class='slide'>
+      <div class='spacer top'></div>
+      <div class='content'>
+        <h1><code>{}</code></h1>
+      </div>
+      <div class='spacer bottom'></div>
+    </section>
+    <section class='slide'>
+      <div class='spacer top'></div>
+      <div class='content'>
+        <h1>This is an object</h1>
+      </div>
+      <div class='spacer bottom'></div>
+    </section>
+    <section class='slide'>
+      <div class='spacer top'></div>
+      <div class='content'>
+        <h1>Data...</h1>
+      </div>
+      <div class='spacer bottom'></div>
+    </section>
+    <section class='slide'>
+      <div class='spacer top'></div>
+      <div class='content'>
+        <p><textarea class='code' display='none' mode='javascript'>{&#x000A;  awesomeCount: 65536&#x000A;}</textarea>
+    </p>
+      </div>
+      <div class='spacer bottom'></div>
+    </section>
+    <section class='slide'>
+      <div class='spacer top'></div>
+      <div class='content'>
+        <h1>&amp; Behavior</h1>
+      </div>
+      <div class='spacer bottom'></div>
+    </section>
+    <section class='slide'>
+      <div class='spacer top'></div>
+      <div class='content'>
+        <p><textarea class='code' display='none' mode='javascript'>{&#x000A;  awesomeCount: 65536,&#x000A;  moarAwesome: function() {&#x000A;   this.awesomeCount++;&#x000A;   return;&#x000A;  }&#x000A;}</textarea>
+    </p>
+      </div>
+      <div class='spacer bottom'></div>
+    </section>
+    <section class='slide'>
+      <div class='spacer top'></div>
+      <div class='content'>
+        <h1>Test Behavior</h1>
+      </div>
+      <div class='spacer bottom'></div>
+    </section>
+    <section class='slide'>
+      <div class='spacer top'></div>
+      <div class='content'>
+        <h1><em>Test Drive</em> Behavior</h1>
+      </div>
+      <div class='spacer bottom'></div>
+    </section>
+    <section class='slide'>
+      <div class='spacer top'></div>
+      <div class='content'>
+        <p><img src="images/jasmine_logo.png" alt="Jasmine Logo" /></p>
+      </div>
+      <div class='spacer bottom'></div>
+    </section>
+    <section class='slide'>
+      <div class='spacer top'></div>
+      <div class='content'>
+        <h1>How?</h1>
+      </div>
+      <div class='spacer bottom'></div>
+    </section>
+    <section class='slide'>
+      <div class='spacer top'></div>
+      <div class='content'>
+        <h1>Follow along at home</h1>
+        
+        <h2><a href="https://gist.github.com/2669482">https://gist.github.com/2669482</a></h2>
+      </div>
+      <div class='spacer bottom'></div>
+    </section>
+    <section class='slide'>
+      <div class='spacer top'></div>
+      <div class='content'>
+        <p><textarea class='code' display='none' mode='javascript'>// BallSpec.js&#x000A;describe("Ball", function () {&#x000A;  var ball;&#x000A;  &#x000A;  beforeEach(function() {&#x000A;    ball = new Ball();&#x000A;  });&#x000A;  &#x000A;  it("should start deflated", function() {&#x000A;    expect(ball.isFull()).toEqual(false);&#x000A;  });&#x000A;});</textarea>
+    </p>
+      </div>
+      <div class='spacer bottom'></div>
+    </section>
+    <section class='slide'>
+      <div class='spacer top'></div>
+      <div class='content'>
+        <p><img src="images/red_ball.png" alt="BallSpec.js Red" /></p>
+      </div>
+      <div class='spacer bottom'></div>
+    </section>
+    <section class='slide'>
+      <div class='spacer top'></div>
+      <div class='content'>
+        <p><textarea class='code' display='none' mode='javascript'>// Ball.js&#x000A;function Ball() {&#x000A;  var full = false;&#x000A;&#x000A;  this.inflate = function() {&#x000A;    full = true;&#x000A;  };&#x000A;&#x000A;  this.isFull = function() {&#x000A;    return full;&#x000A;  };&#x000A;}</textarea>
+    </p>
+      </div>
+      <div class='spacer bottom'></div>
+    </section>
+    <section class='slide'>
+      <div class='spacer top'></div>
+      <div class='content'>
+        <p><img src="images/green_ball.png" alt="BallSpec.js Green" /></p>
+      </div>
+      <div class='spacer bottom'></div>
+    </section>
+    <section class='slide'>
+      <div class='spacer top'></div>
+      <div class='content'>
+        <h1>Matchers</h1>
+        
+        <p><code>toBe(), toBeTruthy(), toBeDefined(), toMatch(), toContain(), toBeCloseTo(), toThrow(), ...</code></p>
+      </div>
+      <div class='spacer bottom'></div>
+    </section>
+    <section class='middle slide'>
+      <div class='spacer top'></div>
+      <div class='content'>
+        <h1>Spies</h1>
+        
+        <h2>mocks, stubs, fakes, doubles</h2>
+      </div>
+      <div class='spacer bottom'></div>
+    </section>
+    <section class='slide'>
+      <div class='spacer top'></div>
+      <div class='content'>
+        <p><textarea class='code' display='none' mode='javascript'>// GameSpec.js&#x000A;describe("Game", function () {&#x000A;  var game, ball;&#x000A;  &#x000A;  beforeEach(function() {&#x000A;    ball = new Ball();&#x000A;    spyOn(ball, 'inflate').andCallThrough();&#x000A;    game = new Game();&#x000A;  });&#x000A;});</textarea>
+    </p>
+      </div>
+      <div class='spacer bottom'></div>
+    </section>
+    <section class='slide'>
+      <div class='spacer top'></div>
+      <div class='content'>
+        <p><textarea class='code' display='none' mode='javascript'>// GameSpec.js&#x000A;describe("Game", function () {&#x000A;  ...&#x000A;  describe("with a not-full ball", function() {&#x000A;    beforeEach(function() {&#x000A;      game.prepare(ball);&#x000A;    });&#x000A;&#x000A;    it("should inflate before play", function() {&#x000A;      expect(ball.inflate).toHaveBeenCalled();&#x000A;    });&#x000A;  });&#x000A;});</textarea>
+    </p>
+      </div>
+      <div class='spacer bottom'></div>
+    </section>
+    <section class='slide'>
+      <div class='spacer top'></div>
+      <div class='content'>
+        <p><img src="images/red_game.png" alt="GameSpec.js Red" /></p>
+      </div>
+      <div class='spacer bottom'></div>
+    </section>
+    <section class='slide'>
+      <div class='spacer top'></div>
+      <div class='content'>
+        <p><textarea class='code' display='none' mode='javascript'>// Game.js&#x000A;function Game() {&#x000A;  this.prepare = function(ball) {&#x000A;    if (ball.isFull()) {&#x000A;      return;&#x000A;    }&#x000A;    ball.inflate();&#x000A;  };&#x000A;}</textarea>
+    </p>
+      </div>
+      <div class='spacer bottom'></div>
+    </section>
+    <section class='slide'>
+      <div class='spacer top'></div>
+      <div class='content'>
+        <p><img src="images/green_game.png" alt="GameSpec.js Green" /></p>
+      </div>
+      <div class='spacer bottom'></div>
+    </section>
+    <section class='slide'>
+      <div class='spacer top'></div>
+      <div class='content'>
+        <h1>The Mock Clock</h1>
+      </div>
+      <div class='spacer bottom'></div>
+    </section>
+    <section class='slide'>
+      <div class='spacer top'></div>
+      <div class='content'>
+        <p><textarea class='code' display='none' mode='javascript'>describe("Manually ticking the Jasmine Mock Clock", function() {&#x000A;  var timerCallback;&#x000A;&#x000A;  beforeEach(function() {&#x000A;    timerCallback = jasmine.createSpy('timerCallback');&#x000A;    jasmine.Clock.useMock();&#x000A;  });&#x000A;&#x000A;  it("causes a timeout to be called synchronously", function() {&#x000A;    setTimeout(function() {&#x000A;      timerCallback();&#x000A;    }, 100);&#x000A;&#x000A;    expect(timerCallback).not.toHaveBeenCalled();&#x000A;    jasmine.Clock.tick(101);&#x000A;    expect(timerCallback).toHaveBeenCalled();&#x000A;  });&#x000A;});</textarea>
+    </p>
+      </div>
+      <div class='spacer bottom'></div>
+    </section>
+    <section class='slide'>
+      <div class='spacer top'></div>
+      <div class='content'>
+        <h1><a href="http://github.com/pivotal/jasmine-ajax">Jasmine Ajax</a></h1>
+      </div>
+      <div class='spacer bottom'></div>
+    </section>
+    <section class='slide'>
+      <div class='spacer top'></div>
+      <div class='content'>
+        <p><textarea class='code' display='none' mode='javascript'>describe("When using the Jasmine Ajax Mock", function() {&#x000A;  var onSuccess, onComplete, onFailure, request;&#x000A;&#x000A;  beforeEach(function() {&#x000A;    onSuccess = jasmine.createSpy('onSuccess');&#x000A;    onComplete = jasmine.createSpy('onComplete');&#x000A;    onFailure = jasmine.createSpy('onFailure');&#x000A;    &#x000A;    jasmine.Ajax.useMock();&#x000A;&#x000A;    jQuery.ajax({&#x000A;      url:      "example.com/someApi",&#x000A;      success:  onSuccess,&#x000A;      complete: onComplete,&#x000A;      error:    onFailure&#x000A;    });&#x000A;    request = mostRecentAjaxRequest();&#x000A;  });&#x000A;&#x000A;  it("prevents the call from leaving your system", function() {&#x000A;    expect(request.url).toEqual("http://example.com/someApi");    &#x000A;  });</textarea>
+    </p>
+      </div>
+      <div class='spacer bottom'></div>
+    </section>
+    <section class='slide'>
+      <div class='spacer top'></div>
+      <div class='content'>
+        <p><textarea class='code' display='none' mode='javascript'>describe("When using the Jasmine Ajax Mock", function() {&#x000A;  var onSuccess, onComplete, onFailure, request;&#x000A;  ... &#x000A;  describe("with a successful response", function() {&#x000A;    beforeEach(function() {&#x000A;      var successResponse = {&#x000A;        status: 200,&#x000A;        responseText: "w00t!"&#x000A;      };&#x000A;      request.response(successResponse);&#x000A;    });&#x000A;&#x000A;    it("should call the success callback", function() {&#x000A;      expect(onSuccess).toHaveBeenCalledWith("w00t!");&#x000A;    });&#x000A;&#x000A;    it("should call the complete callback", function() {&#x000A;      expect(onComplete).toHaveBeenCalled();&#x000A;    });&#x000A;  });&#x000A;  ...&#x000A;});</textarea>
+    </p>
+      </div>
+      <div class='spacer bottom'></div>
+    </section>
+    <section class='slide'>
+      <div class='spacer top'></div>
+      <div class='content'>
+        <p><textarea class='code' display='none' mode='javascript'>describe("When using the Jasmine Ajax Mock", function() {&#x000A;  var onSuccess, onComplete, onFailure, request;&#x000A;  ... &#x000A;  describe("with a successful response", function() {&#x000A;    beforeEach(function() {&#x000A;      var failureResponse = {&#x000A;        status: 500,&#x000A;        responseText: "Doh!"&#x000A;      };&#x000A;      request.response(failureResponse);&#x000A;    });&#x000A;&#x000A;    it("should call the failure callback", function() {&#x000A;      expect(onFailure).toHaveBeenCalledWith("Doh!");&#x000A;    });&#x000A;&#x000A;    it("should call the complete callback", function() {&#x000A;      expect(onComplete).toHaveBeenCalled();&#x000A;    });&#x000A;  })    &#x000A;});</textarea>
+    </p>
+      </div>
+      <div class='spacer bottom'></div>
+    </section>
+    <section class='slide'>
+      <div class='spacer top'></div>
+      <div class='content'>
+        <h1>Async?</h1>
+        
+        <h3><code>runs()</code> &amp; <code>waitsFor()</code></h3>
+      </div>
+      <div class='spacer bottom'></div>
+    </section>
+    <section class='slide'>
+      <div class='spacer top'></div>
+      <div class='content'>
+        <h1>Rails?</h1>
+        
+        <h2>or Ruby-friendly</h2>
+        
+        <h3><code>gem 'jasmine'</code></h3>
+      </div>
+      <div class='spacer bottom'></div>
+    </section>
+    <section class='slide'>
+      <div class='spacer top'></div>
+      <div class='content'>
+        <h1>The Jasmine Gem</h1>
+        
+        <ul>
+        <li>Auto-inclusion of files</li>
+        <li>Asset Pipeline support</li>
+        </ul>
+      </div>
+      <div class='spacer bottom'></div>
+    </section>
+    <section class='slide'>
+      <div class='spacer top'></div>
+      <div class='content'>
+        <h1>Node.js?</h1>
+        
+        <h3>Yes, but could be better</h3>
+      </div>
+      <div class='spacer bottom'></div>
+    </section>
+    <section class='bottom-left dude full-background slide'>
+      <div class='spacer top'></div>
+      <div class='content'>
+        <h1>What does it <em>mean</em>, man?</h1>
+      </div>
+      <div class='spacer bottom'></div>
+    </section>
+    <section class='slide'>
+      <div class='spacer top'></div>
+      <div class='content'>
+        <h2>Fix "broken windows"</h2>
+      </div>
+      <div class='spacer bottom'></div>
+    </section>
+    <section class='slide'>
+      <div class='spacer top'></div>
+      <div class='content'>
+        <h2>Extract common behavior</h2>
+      </div>
+      <div class='spacer bottom'></div>
+    </section>
+    <section class='slide'>
+      <div class='spacer top'></div>
+      <div class='content'>
+        <h2>Change implementations</h2>
+      </div>
+      <div class='spacer bottom'></div>
+    </section>
+    <section class='slide'>
+      <div class='spacer top'></div>
+      <div class='content'>
+        <h2>Swap dependencies</h2>
+      </div>
+      <div class='spacer bottom'></div>
+    </section>
+    <section class='slide'>
+      <div class='spacer top'></div>
+      <div class='content'>
+        <h3>Or, take it from <a href="https://twitter.com/#!/izgaka/status/166700749655515136">@izgaka</a></h3>
+      </div>
+      <div class='spacer bottom'></div>
+    </section>
+    <section class='fear_not full-background slide'>
+      <div class='spacer top'></div>
+      <div class='content'>
+        
+      </div>
+      <div class='spacer bottom'></div>
+    </section>
+    <section class='slide'>
+      <div class='spacer top'></div>
+      <div class='content'>
+        <h1>Help!</h1>
+      </div>
+      <div class='spacer bottom'></div>
+    </section>
+    <section class='slide'>
+      <div class='spacer top'></div>
+      <div class='content'>
+        <p><img src="images/jasmine_intro.png" alt="Introduction.js" /></p>
+      </div>
+      <div class='spacer bottom'></div>
+    </section>
+    <section class='slide'>
+      <div class='spacer top'></div>
+      <div class='content'>
+        <h3><a href="http://pivotal.github.com/jasmine/">Jasmine</a> at Github</h3>
+        
+        <h3><a href="tryjasmine.com">tryjasmine.com</a></h3>
+        
+        <h3><a href="http://googlegroups.com/jasmine-js">Mailing list</a> at Google Groups</h3>
+      </div>
+      <div class='spacer bottom'></div>
+    </section>
+    <section class='slide'>
+      <div class='spacer top'></div>
+      <div class='content'>
+        <h1><code>{}</code></h1>
+      </div>
+      <div class='spacer bottom'></div>
+    </section>
+    <section class='slide'>
+      <div class='spacer top'></div>
+      <div class='content'>
+        <h1>This is <em>software</em></h1>
+      </div>
+      <div class='spacer bottom'></div>
+    </section>
+    <section class='slide'>
+      <div class='spacer top'></div>
+      <div class='content'>
+        <p><img src="images/220px-Mr._Clean_logo.png" alt="Mr. Clean" /></p>
+        
+        <h2>Make it green, keep   it clean</h2>
+      </div>
+      <div class='spacer bottom'></div>
+    </section>
+    <section class='slide'>
+      <div class='spacer top'></div>
+      <div class='content'>
+        <p><img src="images/jasmine_logo.png" alt="Jasmine Logo" /></p>
+        
+        <h1>Thanks!</h1>
+        
+        <h3><a href="http://dwf.bigpencil.net">Davis W. Frank</a> | <a href="http://twitter.com/dwfrank">@dwfrank</a> | <a href="http://pivotallabs.com">Pivotal Labs</a></h3>
+      </div>
+      <div class='spacer bottom'></div>
+    </section>
+    <!-- deck.js navigation extension -->
+    <a class='deck-prev-link' href='#' title='Previous'>&#8592;</a>
+    <a class='deck-next-link' href='#' title='Next'>&#8594;</a>
+    <!-- deck.js hash extension -->
+    <a class='deck-permalink' href='.' title='Permalink to this slide'>#</a>
+    <!-- deck.js status extension -->
+    <p class='deck-status'>
+      <span class='deck-status-current'></span>
+      /
+      <span class='deck-status-total'></span>
+    </p>
+    <!-- jQuery & deck.js -->
+    <script src="deck.js/support/jquery.1.6.4.min.js" type="text/javascript"></script>
+    <script src="deck.js/core/deck.core.js" type="text/javascript"></script>
+    <!-- deck.js extension JS files -->
+    <script src="deck.js/extensions/codemirror/codemirror.js" type="text/javascript"></script>
+    <script src="deck.js/extensions/codemirror/deck.codemirror.js" type="text/javascript"></script>
+    <script src="deck.js/extensions/codemirror/mode/clike/clike.js" type="text/javascript"></script>
+    <script src="deck.js/extensions/codemirror/mode/clojure/clojure.js" type="text/javascript"></script>
+    <script src="deck.js/extensions/codemirror/mode/coffeescript/coffeescript.js" type="text/javascript"></script>
+    <script src="deck.js/extensions/codemirror/mode/css/css.js" type="text/javascript"></script>
+    <script src="deck.js/extensions/codemirror/mode/diff/diff.js" type="text/javascript"></script>
+    <script src="deck.js/extensions/codemirror/mode/haskell/haskell.js" type="text/javascript"></script>
+    <script src="deck.js/extensions/codemirror/mode/htmlmixed/htmlmixed.js" type="text/javascript"></script>
+    <script src="deck.js/extensions/codemirror/mode/javascript/javascript.js" type="text/javascript"></script>
+    <script src="deck.js/extensions/codemirror/mode/lua/lua.js" type="text/javascript"></script>
+    <script src="deck.js/extensions/codemirror/mode/php/php.js" type="text/javascript"></script>
+    <script src="deck.js/extensions/codemirror/mode/plsql/plsql.js" type="text/javascript"></script>
+    <script src="deck.js/extensions/codemirror/mode/python/python.js" type="text/javascript"></script>
+    <script src="deck.js/extensions/codemirror/mode/r/r.js" type="text/javascript"></script>
+    <script src="deck.js/extensions/codemirror/mode/rst/rst.js" type="text/javascript"></script>
+    <script src="deck.js/extensions/codemirror/mode/ruby/ruby.js" type="text/javascript"></script>
+    <script src="deck.js/extensions/codemirror/mode/scheme/scheme.js" type="text/javascript"></script>
+    <script src="deck.js/extensions/codemirror/mode/smalltalk/smalltalk.js" type="text/javascript"></script>
+    <script src="deck.js/extensions/codemirror/mode/sparql/sparql.js" type="text/javascript"></script>
+    <script src="deck.js/extensions/codemirror/mode/stex/stex.js" type="text/javascript"></script>
+    <script src="deck.js/extensions/codemirror/mode/velocity/velocity.js" type="text/javascript"></script>
+    <script src="deck.js/extensions/codemirror/mode/xml/xml.js" type="text/javascript"></script>
+    <script src="deck.js/extensions/codemirror/mode/xmlpure/xmlpure.js" type="text/javascript"></script>
+    <script src="deck.js/extensions/codemirror/mode/yaml/yaml.js" type="text/javascript"></script>
+    <script src="deck.js/extensions/goto/deck.goto.js" type="text/javascript"></script>
+    <script src="deck.js/extensions/hash/deck.hash.js" type="text/javascript"></script>
+    <script src="deck.js/extensions/menu/deck.menu.js" type="text/javascript"></script>
+    <script src="deck.js/extensions/navigation/deck.navigation.js" type="text/javascript"></script>
+    <script src="deck.js/extensions/scale/deck.scale.js" type="text/javascript"></script>
+    <script src="deck.js/extensions/status/deck.status.js" type="text/javascript"></script>
+    <!-- your custom JS here, including call to initialize deck.js-codemirror -->
+    <script src="js/2012.05.30.JasmineIntroFluentConf.js" type="text/javascript"></script>
+    <!-- Initialize the deck. -->
+    <script type='text/javascript'>
+      $(function() { $.deck('.slide'); });
+    </script>
+  </body>
+</html>
